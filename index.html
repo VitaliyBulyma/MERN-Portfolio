@@ -25,18 +25,138 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
     <title>Vitaliy Bulyma | Portfolio</title>
   </head>
   <body>
-      <!-- Header -->
+    <!-- Header -->
 
-      <section id="header">
-          <div class="container">
-              <div class="user-box">
-                  <img src="img/me.png" alt="">
-              </div>
+    <section id="header">
+      <div class="container">
+        <div class="user-box">
+          <img src="img/me.png" alt="" />
+          <h1>Vitaliy Bulyma</h1>
+          <p>Full-Stack MERN Web Developer</p>
+        </div>
+      </div>
+      <div class="scroll-btn">
+        <div class="scroll-bar">
+          <a href="#"><span> </span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- User Info Section -->
+
+    <section id="user-info">
+      <div class="nav-bar">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <span style="color: red; font-style:italic; font-family:'sans-serif'">Vitaliy</span>
+            <span style="color: white;">Bulyma</span></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT ME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RESUME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
           </div>
+        </nav>
+      </div>
+      <!-- About -->
 
-      </section>
+      <div class="about container" id="about">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img class="profile-img" src="img/me.png" alt="" />
+          </div>
+          <div class="col-md-6">
+            <h3>WHO I AM</h3>
+            <p>
+              Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+              Ipsum Lorem Ipsum Lorem Ipsum
+            </p>
+            <div class="skills-bar">
+              <p>Photoshop</p>
+              <div class="progress">
+                <div class="progress-bar" style="width:82%"></div>
+              </div>
+              <p>REACT</p>
+              <div class="progress">
+                <div class="progress-bar" style="width:60%"></div>
+              </div>
+              <p>NODE</p>
+              <div class="progress">
+                <div class="progress-bar" style="width:76%"></div>
+              </div>
+              <p>PHP</p>
+              <div class="progress">
+                <div class="progress-bar" style="width:20%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Resume -->
+
+      <div id="resume" class="resume">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="text-center">My Experience</h3>
+              <ul class="timeline">
+                <li>
+                  <h4>2020 - Full Stack Developer </h4>
+                  <p>
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                    Ipsum Lorem Ipsum Lorem Ipsum<br />
+                    <b>Company:</b> - Black Hawk <br/>
+                    <b>Duration:</b> - 2 Month <br/>
+                    <b>Location:</b> - Toronto <br/>
+                  </p>
+                </li>
+                <li>
+                  <h4>2018 - Full Stack Developer </h4>
+                  <p>
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                    Ipsum Lorem Ipsum Lorem Ipsum<br />
+                    <b>Company:</b> - Self Employed <br/>
+                    <b>Duration:</b> - 2 years <br/>
+                    <b>Location:</b> - Toronto <br/>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
