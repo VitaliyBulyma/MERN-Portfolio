@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -26,9 +26,10 @@
       crossorigin="anonymous"
     ></script>
     <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Vitaliy Bulyma | Portfolio</title>
   </head>
   <body>
@@ -43,8 +44,9 @@
         </div>
       </div>
       <div class="scroll-btn">
+        
         <div class="scroll-bar">
-          <a href="#"><span> </span></a>
+          <a href="#about"><span> </span></a>
         </div>
       </div>
     </section>
@@ -55,8 +57,12 @@
       <div class="nav-bar">
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="#">
-            <span style="color: red; font-style:italic; font-family:'sans-serif'">Vitaliy</span>
-            <span style="color: white;">Bulyma</span></a>
+            <span
+              style="color: red; font-style: italic; font-family: 'sans-serif'"
+              >Vitaliy</span
+            >
+            <span style="color: white">Bulyma</span></a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -72,19 +78,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" href="#top">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT ME</a>
+                <a class="nav-link" href="#about">ABOUT ME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">RESUME</a>
+                <a class="nav-link" href="#resume">RESUME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -106,24 +112,47 @@
             <div class="skills-bar">
               <p>Photoshop</p>
               <div class="progress">
-                <div class="progress-bar" style="width:82%"></div>
+                <div class="progress-bar" style="width: 82%"></div>
               </div>
               <p>REACT</p>
               <div class="progress">
-                <div class="progress-bar" style="width:60%"></div>
+                <div class="progress-bar" style="width: 60%"></div>
               </div>
               <p>NODE</p>
               <div class="progress">
-                <div class="progress-bar" style="width:76%"></div>
+                <div class="progress-bar" style="width: 76%"></div>
               </div>
               <p>PHP</p>
               <div class="progress">
-                <div class="progress-bar" style="width:20%"></div>
+                <div class="progress-bar" style="width: 20%"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Social Media -->
+      <div class="social-icons">
+        <ul>
+          <a href="#">
+            <li>
+              <i class="fa fa-linkedin"></i>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa fa-twitter"></i>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa fa-github"></i>
+            </li>
+          </a>
+
+        </ul>
+      </div>
+
       <!-- Resume -->
 
       <div id="resume" class="resume">
@@ -133,23 +162,48 @@
               <h3 class="text-center">My Experience</h3>
               <ul class="timeline">
                 <li>
-                  <h4>2020 - Full Stack Developer </h4>
+                  <h4><span>2020 -</span> Full Stack Developer</h4>
                   <p>
-                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                    Ipsum Lorem Ipsum Lorem Ipsum<br />
-                    <b>Company:</b> - Black Hawk <br/>
-                    <b>Duration:</b> - 2 Month <br/>
-                    <b>Location:</b> - Toronto <br/>
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum<br />
+                    <b>Company:</b> - Black Hawk <br />
+                    <b>Duration:</b> - 2 Month <br />
+                    <b>Location:</b> - Toronto <br />
                   </p>
                 </li>
                 <li>
-                  <h4>2018 - Full Stack Developer </h4>
+                  <h4><span>2018 - </span>Full Stack Developer</h4>
                   <p>
-                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                    Ipsum Lorem Ipsum Lorem Ipsum<br />
-                    <b>Company:</b> - Self Employed <br/>
-                    <b>Duration:</b> - 2 years <br/>
-                    <b>Location:</b> - Toronto <br/>
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum<br />
+                    <b>Company:</b> - Self Employed <br />
+                    <b>Duration:</b> - 2 years <br />
+                    <b>Location:</b> - Toronto <br />
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h3 class="text-center">My Education</h3>
+              <ul class="timeline">
+                <li>
+                  <h4><span>2020 -</span> Web Developer</h4>
+                  <p>
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum<br />
+                    <b>Company:</b> - Humber College<br />
+                    <b>Duration:</b> - 1 year <br />
+                    <b>Location:</b> - Toronto <br />
+                  </p>
+                </li>
+                <li>
+                  <h4><span>2016 - </span> Gerontology</h4>
+                  <p>
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum<br />
+                    <b>Company:</b> - Laurentian University <br />
+                    <b>Duration:</b> - 4 years <br />
+                    <b>Location:</b> - Toronto <br />
                   </p>
                 </li>
               </ul>
@@ -157,6 +211,90 @@
           </div>
         </div>
       </div>
+      <!-- Services -->
+      <div id="services" class="services">
+        <div class="container">
+          <h1 class="text-center">My Services</h1>
+          <p class="text-center">
+            Small text goes here which can break <br />
+            over several lines
+          </p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="services-box">
+                <i class="fa fa-rocket"></i><span>Graphics</span>
+                <p>
+                  This text here describes the services that I offer as Web
+                  Developer
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="services-box">
+                <i class="fa fa-bar-chart"></i><span>Data</span>
+                <p>
+                  This text here describes the services that I offer as Web
+                  Developer
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="services-box">
+                <i class="fa fa-laptop"></i><span>Development</span>
+                <p>
+                  This text here describes the services that I offer as Web
+                  Developer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact -->
+
+      <div id="contact" class="contact">
+        <div class="container text-center">
+          <h1>Contact Me</h1>
+          <p>
+            This text here describes why you should contact me <br />
+            It is also multi line
+          </p>
+
+          <div class="row">
+            <div class="col-md-4">
+              <i class="fa fa-phone"></i>
+              <p>(416) 555 5555</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-envelope"></i>
+              <p>contactme@vitaliybulyma.com</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-internet-explorer"></i>
+              <p>www.vitaliybulyma.com</p>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="button">
+            <i class="fa fa-download"></i>Resume
+          </button>
+          <button class="btn btn-primary" type="button">
+            <i class="fa fa-rocket"></i>Hire Me
+          </button>
+        </div>
+        <div class="footer text-center">
+          <p>
+            Design code reference
+            <a href="https://www.youtube.com/watch?v=qCFN8EujbGI">here</a>
+          </p>
+        </div>
+      </div>
     </section>
+
+    <!-- Smooth Scroll -->
+
+    <script src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
   </body>
 </html>
